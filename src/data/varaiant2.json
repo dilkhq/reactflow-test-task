@@ -1,0 +1,50 @@
+{
+    "block_1": {
+        "body": {
+            "text": "Привет"
+        },
+        "exit_points": {
+            "block": "block_2"
+        }
+    },
+    "block_2": {
+        "body": {
+            "text": "123",
+            "value": "{var}"
+        },
+        "exit_points": [
+            {
+                "if": [
+                    "тут можеть быть что угодно"
+                ],
+                "block": "block_3"
+            },
+            {
+                "if": [
+                    "value",
+                    "==",
+                    "5"
+                ],
+                "block": "block_4"
+            }
+        ]
+    },
+    "block_5": {
+        "body": {
+            "text": "Ошибка"
+        }
+    },
+    "block_4": {
+        "body": {
+            "text": "Пятерка"
+        },
+        "exit_points": {
+            "block": "block_5"
+        }
+    },
+    "block_3": {
+        "body": {
+            "text": "Пока"
+        }
+    }
+}

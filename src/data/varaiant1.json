@@ -1,0 +1,23 @@
+{
+    "block_1": {
+        "body": {
+            "text": "Привет"
+        },
+        "exit_points": {
+            "block": "block_2"
+        }
+    },
+    "block_2": {
+        "body": {
+            "text": "123"
+        },
+        "exit_points": {
+            "block": "block_3"
+        }
+    },
+    "block_3": {
+        "body": {
+            "text": "Пока"
+        }
+    }
+}

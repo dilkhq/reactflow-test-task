@@ -1,0 +1,101 @@
+.context-menu {
+    background: white;
+    border-style: solid;
+    box-shadow: 10px 19px 20px rgba(0, 0, 0, 10%);
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .context-menu button {
+    border: none;
+    display: block;
+    padding: 0.5em;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .context-menu button:hover {
+    background: white;
+  }
+  
+  .text-updater-node {
+    height: 50px;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .text-updater-node label {
+    display: block;
+    color: #777;
+    font-size: 12px;
+  }
+
+  .dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+  }
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    padding: 15px 10px;
+    font-size: 12px;
+    background: #fcfcfc;
+  }
+  
+  .dndflow aside .description {
+    margin-bottom: 10px;
+  }
+  
+  
+  .react-flow__node-input{
+    padding: 50px 40px;
+    border-radius: 5px;
+    background: #b1c9ef;
+    color: f0f3fa;
+    border: 2px solid #395886;
+}
+.react-flow__node-output{
+  padding: 50px 40px;
+  border-radius: 5px;
+  background: #b1c9ef;
+  color: f0f3fa;
+  border: 2px solid #395886;
+}
+.react-flow__node-default{
+  padding: 50px 40px;
+  border-radius: 5px;
+  background: #b1c9ef;
+  color: f0f3fa;
+  border: 2px solid #395886;
+}
+  .dndflow .dndnode.input {
+    border-color: #0041d0;
+  }
+  
+  .dndflow .dndnode.output {
+    border-color: #ff0072;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+    }
+  
+    .dndflow aside {
+      width: 20%;
+      max-width: 250px;
+    }
+  }
+  
